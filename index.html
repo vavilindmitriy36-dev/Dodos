@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP TRACKER LAB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">IP<span>LAB</span></div>
+        <div class="status">
+            <span class="dot"></span> SYSTEM ONLINE
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="subtitle">NETWORK INFORMATION SYSTEM</p>
+
+            <h1>IP ADDRESS<br><span>CHECKER</span></h1>
+
+            <p class="description">
+                Узнай свой публичный IP-адрес
+                с помощью простого сетевого инструмента.
+            </p>
+
+            <button id="checkBtn">
+                ОПРЕДЕЛИТЬ МОЙ IP
+            </button>
+
+            <div class="result">
+                <p>YOUR PUBLIC IP</p>
+                <h2 id="ipAddress">XXX.XXX.XXX.XXX</h2>
+
+                <button id="copyBtn" class="copy">
+                    КОПИРОВАТЬ IP
+                </button>
+
+                <p id="message">Ожидание запроса...</p>
+            </div>
+        </section>
+
+        <section class="info">
+            <h2>Что такое IP?</h2>
+            <p>
+                IP-адрес — это уникальный сетевой адрес,
+                который используется для обмена данными
+                между устройствами в интернете.
+            </p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>01 / IP</h3>
+                    <p>Адрес устройства в сети.</p>
+                </div>
+
+                <div class="card">
+                    <h3>02 / ISP</h3>
+                    <p>Интернет-провайдер.</p>
+                </div>
+
+                <div class="card">
+                    <h3>03 / VPN</h3>
+                    <p>Технология изменения маршрута соединения.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        IP TRACKER LAB © 2026
+        <p>Educational project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  
+</html>
